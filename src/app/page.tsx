@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Bumper from "@/components/Bumper";
+import BumperPill from "@/components/BumperPill";
 
 export default function Home() {
   return (
@@ -66,6 +67,8 @@ export default function Home() {
         </ol>
 
         <Bumper title="GETTING STARTED" id="getting-started" />
+        
+        <BumperPill number="01" sectionHeader="INTRODUCTION" id="introduction" />
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
@@ -94,6 +97,8 @@ export default function Home() {
         </div>
         
         <Bumper title="FEATURES" id="features" />
+        
+        <BumperPill number="02" sectionHeader="KEY FEATURES" id="key-features" />
 
         <section className="text-center sm:text-left w-full">
           <h2 className="text-lg font-medium mb-4">Key Features</h2>
